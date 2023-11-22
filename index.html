@@ -73,7 +73,7 @@
         <a class="home__contact" href="#contact">Contact Me</a>
       </section>
       <!-- about -->
-      <section id="about" class="section">
+      <section id="about" class="section max-container">
         <h2 class="title">About me</h2>
         <p class="description">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit saepe
@@ -81,44 +81,55 @@
           numquam soluta provident corrupti illum totam perspiciatis. Tempore,
           doloribus qui.
         </p>
-        <ul>
-          <li>
-            <i class="fa-brands fa-html5"></i>
-            <p>Front-end</p>
-            <p>HTML, CSS, JavaScript, React, Web APIs</p>
+        <ul class="majors">
+          <li class="major">
+            <i class="fa-brands fa-html5 major__icon"></i>
+            <p class="major__title">Front-end</p>
+            <p>HTML, CSS, JavaScript, React</p>
           </li>
-          <li>
-            <i class="fa-solid fa-mobile"></i>
-            <p>Mobile</p>
+          <li class="major">
+            <i class="fa-solid fa-mobile major__icon"></i>
+            <p class="major__title">Mobile</p>
             <p>Android, iOS, React Native</p>
           </li>
-          <li>
-            <i class="fa-solid fa-server"></i>
-            <p>Back-end</p>
+          <li class="major">
+            <i class="fa-solid fa-server major__icon"></i>
+            <p class="major__title">Back-end</p>
             <p>AWS, Python</p>
           </li>
-          <ul>
-            <li>
-              <img src="images/jobs/wecode_black.png" alt="wecode logo" />
-              <div>
-                <p>Completed the front end course with 28th term of Wecode</p>
-              </div>
-            </li>
-            <li>
-              <img
-                src="images/jobs/100&100ventures.png"
-                alt="100&100 Ventures"
-              />
-              <div>
-                <p>
-                  100&100 Ventures is focus on the primary market and incubate
-                  early-stage projects, providing funding, guidance, and
-                  industry insights to drive the growth of innovative projects
-                  in the South Korean blockchain ecosystem
-                </p>
-              </div>
-            </li>
-          </ul>
+        </ul>
+        <ul class="jobs">
+          <li class="job">
+            <img
+              class="job_logo"
+              src="images/jobs/wecode_black.png"
+              alt="wecode logo"
+            />
+            <div>
+              <p class="job__name">Wecode 28th term, Front-End</p>
+              <p class="job__period">
+                Completed the front end course with 28th term of Wecode
+              </p>
+            </div>
+          </li>
+          <li class="job">
+            <img
+              class="job_logo"
+              src="images/jobs/100&100ventures.png"
+              alt="100&100 Ventures"
+              width="150"
+              height="150"
+            />
+            <div>
+              <p class="job__name">100&100 Ventures manager</p>
+              <p class="job__period">
+                100&100 Ventures is focus on the primary market and incubate
+                early-stage projects, providing funding, guidance, and industry
+                insights to drive the growth of innovative projects in the South
+                Korean blockchain ecosystem
+              </p>
+            </div>
+          </li>
         </ul>
       </section>
       <!-- Skills -->
